@@ -39,9 +39,9 @@ var applicationSchema = new Schema({
 });
 
 // Create models for the user schema 
-const User = mongoose.model('User', userSchema);
-const Job = mongoose.model('Job', jobSchema);
-const Application = mongoose.model('Application', applicationSchema);
+const user = mongoose.model('User', userSchema);
+const job = mongoose.model('Job', jobSchema);
+const application = mongoose.model('Application', applicationSchema);
 
 
 
